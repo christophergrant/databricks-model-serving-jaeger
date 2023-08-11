@@ -1,0 +1,4 @@
+jaeger*.tar.gz
+.DS_STORE
+.terraform*
+jaeger-1.47.0*
