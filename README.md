@@ -2,11 +2,13 @@
 
 ## background
 
-Logs can help diagnose specific issues, but they are sometimes unintuitive when operating multiple systems.
+Logs can help diagnose specific issues, but they are difficult to use when switching contexts, systems, and applications.
 
 Metrics can be useful to identify trends, but aren't as useful when looking for specifics.
 
 Traces are a newer, third option, which give us the ability to get request-specific information, even across systems. It is often difficult to find bottlenecks when operating latency-sensitive systems. It is extremely difficult for humans to find bottlenecks with multi-application systems. This is where tracing can be helpful.
+
+Jaeger is a popular open-source distributed tracing system that we will use here, with Python.
 
 ## this repo
 
